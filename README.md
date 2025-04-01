@@ -2,29 +2,20 @@
 <p align="center">
 <img src='.github/img/ytpro.gif' height=150  >
 </p>
-<h1 align=center>YT PRO </h1>
+<h1 align=center>BroTube </h1>
 
 <div align="center">
-
 
 [![Gradle](https://github.com/prateek-chaubey/YTPro/actions/workflows/gradle.yml/badge.svg)](https://github.com/prateek-chaubey/YTPro/actions/workflows/gradle.yml)
 <a href="https://www.jsdelivr.com/package/npm/ytpro?tab=stats" ><img alt="jsDelivr monthly hits badge" src="https://data.jsdelivr.com/v1/package/npm/ytpro/badge"></a>
 
 </div>
 
----
-> [!TIP]
-> If you like this project, consider [sponsoring](https://github.com/sponsors/prateek-chaubey) to support the author 🌸
----
-
 #### Screenshots
 | | | |
 |:--:|:--:|:--:| 
 |<img src='.github/img/01103.png'  > | <img src='.github/img/01102.png'  > |<img src='.github/img/01101.png'  > |
 
-## Download YT PRO
-
-[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-ff0000?style=for-the-badge&logo=download&logoColor=white "Download Apk")](https://nightly.link/prateek-chaubey/YTPro/workflows/gradle/main/Apk.zip)
 
 ## Features
  * <img src='.github/img/gemini-logo-13486188-10900314-unscreen-ezgif.com-crop.gif' height=15 width=15 > Google Gemini
@@ -60,14 +51,25 @@ The available variables for gemini prompt are
  * Enhance Audio
  * Merging Adaptive Formats
 
+## Build
+
+Requires [JDK 14](https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_osx-x64_bin.tar.gz).
+
+**MacOS**
+
+
+From the project's directory
+
+```console
+wget https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_osx-x64_bin.tar.gz
+tar -xzvf openjdk-14_osx-x64_bin.tar.gz
+export JAVA_HOME="./jdk-14.jdk/Contents/Home"
+./gradlew build
+```
+
 ### Credits
  * [Sponsor Block](https://github.com/ajayyy/SponsorBlock)
  * [return-youtube-dislike](https://github.com/Anarios/return-youtube-dislike)
-
-### ❤️Supporters❤️
-[![Stargazers repo roster for @prateek-chaubey/YTPro](http://reporoster.com/stars/dark/prateek-chaubey/YTPro)](https://github.com/prateek-chaubey/YTPro/stargazers)
-     
-[![Forkers repo roster for @prateek-chaubey/YTPro](http://reporoster.com/forks/dark/prateek-chaubey/YTPro)](https://github.com/prateek-chaubey/YTPro/network/members)
 
 
 ## Disclaimer 
