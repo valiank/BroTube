@@ -1,4 +1,4 @@
-package com.google.android.youtube.pro;
+package com.google.android.brotube;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
