@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![Gradle](https://github.com/prateek-chaubey/YTPro/actions/workflows/gradle.yml/badge.svg)](https://github.com/prateek-chaubey/YTPro/actions/workflows/gradle.yml)
+[![Gradle](https://github.com/makhyoi/BroTube/actions/workflows/gradle.yml/badge.svg)](https://github.com/prateek-chaubey/YTPro/actions/workflows/gradle.yml)
 <a href="https://www.jsdelivr.com/package/npm/ytpro?tab=stats" ><img alt="jsDelivr monthly hits badge" src="https://data.jsdelivr.com/v1/package/npm/ytpro/badge"></a>
 
 </div>
@@ -49,9 +49,9 @@ The available variables for gemini prompt are
 
 ## Build
 
-Requires [JDK 14](https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_osx-x64_bin.tar.gz).
-
 **MacOS**
+
+Requires [JDK 14](https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_osx-x64_bin.tar.gz).
 
 From the project's directory
 
@@ -59,7 +59,7 @@ From the project's directory
 wget https://download.java.net/java/GA/jdk14/076bab302c7b4508975440c56f6cc26a/36/GPL/openjdk-14_osx-x64_bin.tar.gz
 tar -xzvf openjdk-14_osx-x64_bin.tar.gz
 export JAVA_HOME="./jdk-14.jdk/Contents/Home"
-./gradlew build
+./gradlew assembleRelease
 ```
 
 ## ToDo
