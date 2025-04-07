@@ -23,8 +23,7 @@ jobs:
       run: ./gradlew assembleRelease
 
     - name: Sign
-      run: java -jar signer/apksigner.jar \
-           sign \
+      run: java -jar signer/apksigner.jar sign \
            --key signer/apkeasytool.pk8 \
            --cert signer/apkeasytool.pem --v4-signing-enabled false \
            --out app/build/outputs/apk/release/youtube_pro_signed.apk app/build/outputs/apk/release/app-release-unsigned.apk
