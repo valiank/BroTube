@@ -1,7 +1,7 @@
 name: Gradle
 
 on:
-  push:
+  release:
     branches: [ main ]
   pull_request:
     branches: [ main ]
