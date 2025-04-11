@@ -1,11 +1,15 @@
 <p align="center">
-<img src='.github/img/ytpro.gif' height=150  >
+  <img src='.github/img/ytpro.gif' height=150  >
 </p>
 <h1 align=center>BroTube </h1>
 
 ## Purpose
 
-This application is designed to replace the YouTube app on Android devices running version 7.0 and above (older versions has not been tested). It operates like a YouTube browser extension, allowing users to sign in with their Google account and access a variety of additional features.
+This application is designed to replace the YouTube app (which no longer available)
+on Android devices running version 7.0 and above 
+(older versions has not been tested). It operates like a YouTube browser
+extension, allowing users to sign in with their Google account and access a
+variety of additional features.
 
 ## Features
 
