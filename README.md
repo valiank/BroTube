@@ -6,14 +6,12 @@
 ## Purpose
 
 This application is designed to replace the YouTube app (which no longer available)
-on Android devices running version 7.0 and above 
-(older versions has not been tested). It operates like a YouTube browser
+on Android 6 or 7. It operates like a YouTube browser
 extension, allowing users to sign in with their Google account and access a
 variety of additional features.
 
 ## Features
 
-- Android `>=7.0` support
 - Video, shorts, captions, thumbnails downloader
 - Ads Blocker
 - Minimize Video
